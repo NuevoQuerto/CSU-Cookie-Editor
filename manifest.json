@@ -1,0 +1,27 @@
+{
+  "name": "CSU Cookie Editor",
+  "description" : "Dibuat Oleh Agung Rizal Suryo Laksono",
+  "version": "1.1",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "unpam.png"
+  },
+  "permissions": ["tabs", "storage", "cookies", "<all_urls>"],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+		"mac": "MacCtrl+Shift+F"
+      },
+	   "description": "Opens popup.html"
+    }
+  },
+  "icons" : {
+	"16": "unpam.png",
+	"32": "unpam.png",
+	"48": "unpam.png",
+	"128": "unpam.png"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}
